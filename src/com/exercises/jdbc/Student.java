@@ -8,6 +8,10 @@ public class Student {
     private String location;
     private int grade;
 
+    public Student() {
+
+    }
+
     public Student(int type, String idCard, String examCard, String studentName, String location, int grade) {
         this.type = type;
         this.idCard = idCard;
